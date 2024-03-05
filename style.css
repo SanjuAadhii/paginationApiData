@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+
+  .pagination {
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .pagination li {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+
+  .pagination li:hover {
+    background-color: #2980b9;
+  }
+
+  .pagination-arrow {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+
+  .pagination-arrow:hover {
+    background-color: #2980b9;
+  }
+
+  @media (max-width: 600px) {
+    .pagination li, .pagination-arrow {
+      font-size: 14px;
+    }
+  }
